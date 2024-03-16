@@ -1,0 +1,108 @@
+.masthead{
+    min-height: 600px;
+}
+
+.menu-height{
+    height: 62px;
+
+}
+
+.image{
+    width: 230px;
+    height: 480px;
+    position: absolute;
+    right: 51%;
+    top: 3%;
+    border-radius: 30px;
+    z-index: 1;
+
+}
+
+.phone{
+    z-index: 2;
+}
+
+.bg-gradient{
+    background: linear-gradient(
+    45deg,
+    rgb(65, 52, 204),
+    rgb(21, 22, 24)
+  ) !important;
+}
+
+.icon-feature{
+    font-size: 3rem;
+    background: linear-gradient(45deg, rgb(65, 52, 204), rgb(21, 22, 24));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.features-device-mockup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    right: 35px;
+}
+
+.tnw-logo{
+    width: 100%;
+    height: 800px;
+    position: center;
+    margin-right: 130px;
+    
+
+}
+
+.text-legends{
+    margin-left: 70px;
+}
+
+
+.logo {
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, rgb(65, 52, 204), rgb(21, 22, 24));
+}
+
+section.cta {
+    position: relative;
+    padding: 15rem 0;
+    background-image: url(assets/images/wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+section.cta .cta-content{
+    position: relative;
+    z-index: 1;
+}
+
+section.cta::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.app-badge{
+    margin: 5px;
+
+}
+
+#download {
+    height: 200px;
+    padding-top: 50px;
+}
+
+#phone-screen {
+    top: 20px;
+    padding-top: 5px;
+}
